@@ -23,7 +23,7 @@ export const ProductDetail: React.FC = () => {
 
   useEffect(() => {
     const fetchProduct = async () => {
-      const response = await axios.get<Product>(`http://localhost:8000/products/${slug}/`);
+      const response = await axios.get<Product>(`http://localhost:8000/api/products/${slug}/`);
       setProduct(response.data);
     };
 
