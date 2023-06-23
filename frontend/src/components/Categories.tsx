@@ -26,7 +26,7 @@ export const Categories: React.FC = () => {
       {categories.map(category => (
         <div key={category.id}>
           <h2>{category.name}</h2>
-          <p>{category.description}</p>
+          {/* <p>{category.description}</p> */}
         </div>
       ))}
     </div>

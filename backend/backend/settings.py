@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'products.apps.ProductsConfig',
+    'order.apps.OrderConfig',
 ]
 
 MIDDLEWARE = [
